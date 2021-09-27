@@ -1,0 +1,41 @@
+
+@article{Hinton00trainingproducts,
+    author = {Geoffrey Hinton},
+    title = {Training Products of Experts by Minimizing Contrastive Divergence},
+    journal = {Neural Computation},
+    year = {2000},
+    volume = {14},
+    pages = {2002}
+}
+
+@inproceedings{mahabadi2020endtoend,
+    title = "End-to-End Bias Mitigation by Modelling Biases in Corpora",
+    author = "Mahabadi, Karimi Rabeeh  and
+      Belinkov, Yonatan  and
+      Henderson, James",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.769",
+    doi = "10.18653/v1/2020.acl-main.769",
+    pages = "8706--8716",
+    abstract = "Several recent studies have shown that strong natural language understanding (NLU) models are prone to relying on unwanted dataset biases without learning the underlying task, resulting in models that fail to generalize to out-of-domain datasets and are likely to perform poorly in real-world scenarios. We propose two learning strategies to train neural models, which are more robust to such biases and transfer better to out-of-domain datasets. The biases are specified in terms of one or more bias-only models, which learn to leverage the dataset biases. During training, the bias-only models{'} predictions are used to adjust the loss of the base model to reduce its reliance on biases by down-weighting the biased examples and focusing the training on the hard examples. We experiment on large-scale natural language inference and fact verification benchmarks, evaluating on out-of-domain datasets that are specifically designed to assess the robustness of models against known biases in the training data. Results show that our debiasing methods greatly improve robustness in all settings and better transfer to other textual entailment datasets. Our code and data are publicly available in \url{https://github.com/rabeehk/robust-nli}.",
+}
+
+@inproceedings{UtamaDebias2020degrading,
+    title = "Mind the Trade-off: Debiasing {NLU} Models without Degrading the In-distribution Performance",
+    author = "Utama, Prasetya Ajie  and
+      Moosavi, Nafise Sadat  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.770",
+    doi = "10.18653/v1/2020.acl-main.770",
+    pages = "8717--8729",
+    abstract = "Models for natural language understanding (NLU) tasks often rely on the idiosyncratic biases of the dataset, which make them brittle against test cases outside the training distribution. Recently, several proposed debiasing methods are shown to be very effective in improving out-of-distribution performance. However, their improvements come at the expense of performance drop when models are evaluated on the in-distribution data, which contain examples with higher diversity. This seemingly inevitable trade-off may not tell us much about the changes in the reasoning and understanding capabilities of the resulting models on broader types of examples beyond the small subset represented in the out-of-distribution data. In this paper, we address this trade-off by introducing a novel debiasing method, called confidence regularization, which discourage models from exploiting biases while enabling them to receive enough incentive to learn from all the training examples. We evaluate our method on three NLU tasks and show that, in contrast to its predecessors, it improves the performance on out-of-distribution datasets (e.g., 7pp gain on HANS dataset) while maintaining the original in-distribution accuracy.",
+}
