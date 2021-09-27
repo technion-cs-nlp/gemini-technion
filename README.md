@@ -9,6 +9,13 @@ Click on **New Project** → **Upload Prokect** and upload a zip file of this re
 **Note**: Make sure you change the compiler to *LuaLaTeX*, or else the project will not compile.
 
 
+## Preview
+
+<p align="center">
+<img src="screenshot.png">
+</p>
+
+
 Original README below:
 
 ---
