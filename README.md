@@ -4,7 +4,7 @@
 
 ## Importing to Overleaf
 
-Click on **New Project** → **Upload Prokect** and upload a zip file of this repository
+Click on **New Project** → **Upload Project** and upload a zip file of this repository
 
 **Note**: Make sure you change the compiler to *LuaLaTeX*, or else the project will not compile.
 
